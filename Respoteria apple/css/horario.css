@@ -1,0 +1,88 @@
+body{
+     background-color: lightcoral;
+}
+
+header{
+     background-color:  #9a043d;
+     width:100%;
+     height: 120px;
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     }
+     
+     header h1{
+         color: #eed9ff;
+         font-size: 40px;
+         margin-top: 0%;
+
+     }
+
+     .imagen{
+          border-radius: 50%;
+          width: 9%;
+          margin-top: -12%;
+
+     }
+
+     a,li{
+          font-size: 28px ;
+          text-decoration: none;
+          color: whitesmoke;
+          margin-top: 1%;
+          padding: 20px;
+          
+     }
+
+
+     p{
+          font-size: 140%;
+          color: rgb(88, 0, 0);
+          font-family: 'Times New Roman', Times, serif;
+     }
+
+     form{
+          padding: 40px 65px;
+          box-shadow: cornflowerblue; 
+          border-radius: 40px;
+          text-align: center;
+          width: 340px;
+          margin-bottom: 30px;
+          color:whitesmoke;
+          border: 3px solid #ffffff;
+      }
+      
+      .input-group{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+      }
+      
+      
+      .titulo {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(211, 245, 246);
+      
+      }
+     
+      .Contacto,label,h3{
+     color: black;
+      }
+     
+      input,textarea{
+          padding: 17px 25px;
+          border-radius: 25px;
+          margin-bottom: 20px;
+          background-color: #ffffff;
+          border: 2px solid #000000;
+          color: #263439;
+      }
+      
+      textarea{
+          flex-direction: column;
+      }
+      
+      input::placeholder, text::placeholder,  textarea::placeholder{
+          color: #000000; 
+      }
+     

@@ -1,0 +1,38 @@
+body{
+     background-color: lightcoral;
+}
+
+.fixed-nav-bar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background-color: #9a043d;
+     color: #fff;
+  padding: 20px; /* Increase the padding to make the nav bar larger */
+  font-size: 1.2rem; /* Increase the font size of the menu items */
+   }
+   
+   .fixed-nav-bar,ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+   }
+   
+
+   
+   .fixed-nav-bar,a {
+     color: #fff;
+     text-decoration: none;
+     padding: 0.25rem 0.5rem;
+   }
+
+li{
+     margin-left: 80%;
+}
+
+
+
+   
